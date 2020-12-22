@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+#zipcode {
+    margin-bottom: 10px;
+}
+form{
+    font-size: large;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero-image {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: black; /* ADD THIS LINE */
+    
+    /* Background styles */
+    background: url('Images/thumb-350-26102.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  
+}
+
+.submit_text {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+  }
+.form_text {
+  transform: translateX(800px) translateY(300px);
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+.contact_page {
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  padding: 20px;
+  margin: 100px auto;
+  width: 400px;
+}
+.fnamee {
+    font-family: 'Quicksand', sans-serif;
+}
+.lnamee {
+    font-family: 'Quicksand', sans-serif;
+}
+.phonee {
+    font-family: 'Quicksand', sans-serif;
+}
+.emaill {
+    font-family: 'Quicksand', sans-serif;
+}
+.commentt {
+    font-family: 'Quicksand', sans-serif;
+}
+.footer-links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px white;
+    margin-right: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+p{
+    color: white;
+}
